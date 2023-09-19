@@ -26,9 +26,9 @@ namespace AzureFunctionTest
             
                 st = new Student()
                 {
-                    Class = "16",
-                    Name = "Hussnain Qudsi",
-                    RollNumber = "F16-BSCS-078"
+                    FirstName = "NEW",
+                    LastName = "Hussnain Qudsi",
+                    Email = "F16-BSCS-078"
                 };
             
             dynamic data = JsonConvert.DeserializeObject(requestBody);
